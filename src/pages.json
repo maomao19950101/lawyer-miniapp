@@ -1,0 +1,103 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "在线咨询"
+			}
+		},
+		{
+			"path": "pages/cases/cases",
+			"style": {
+				"navigationBarTitleText": "成功案例"
+			}
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "关于律师"
+			}
+		},
+		{
+			"path": "pages/quick/quick",
+			"style": {
+				"navigationBarTitleText": "快速咨询"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "律师登录"
+			}
+		},
+		{
+			"path": "pages/admin/home/home",
+			"style": {
+				"navigationBarTitleText": "律师后台"
+			}
+		},
+		{
+			"path": "pages/admin/messages/messages",
+			"style": {
+				"navigationBarTitleText": "消息管理"
+			}
+		},
+		{
+			"path": "pages/admin/cases/cases",
+			"style": {
+				"navigationBarTitleText": "案例管理"
+			}
+		},
+		{
+			"path": "pages/admin/users/users",
+			"style": {
+				"navigationBarTitleText": "用户管理"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "法律咨询",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F5F5F5"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#007AFF",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home-active.png"
+			},
+			{
+				"pagePath": "pages/chat/chat",
+				"text": "咨询",
+				"iconPath": "static/chat.png",
+				"selectedIconPath": "static/chat-active.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/profile.png",
+				"selectedIconPath": "static/profile-active.png"
+			}
+		]
+	}
+}

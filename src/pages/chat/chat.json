@@ -1,0 +1,6 @@
+{
+  "path": "pages/chat/chat",
+  "style": {
+    "navigationBarTitleText": "在线咨询"
+  }
+}
